@@ -12,12 +12,14 @@ In this lab, we'll practice using parameters in our functions. We'll also learn
 how to create a default value for a parameter.
 
 If you haven't already, fork and clone this lab into your local environment.
-Navigate into its directory in the terminal, then run `code .` to open the files
-in Visual Studio Code. (If you are using a different text editor, the command
-will be different.)
+Remember to **fork** a copy into your GitHub account first, then clone from that
+copy. Once you've cloned it down, navigate into its directory in the terminal,
+then run `code .` to open the files in Visual Studio Code. (If you are using a
+different text editor, the command will be different.)
 
 You will be writing your code in the `index.js` file and running the tests by
-running `learn test` in the terminal.
+running `npm test` in the terminal. Remember to run `npm install` first to
+install the lab's dependencies.
 
 ## Define a Function That Uses a Parameter
 
@@ -74,3 +76,10 @@ argument, the function will use the default value, logging "Hello, User!"
 `introductionWithLanguageOptional`. It should have two parameters, `name` and
 `language`, and the second parameter should have a default value of
 "JavaScript".
+
+After you have all the tests passing, remember to commit and push your changes
+up to GitHub, then submit your work to Canvas using CodeGrade. If you need a
+reminder, go back to the [Complete Your First Software Engineering
+Assignment][complete-assignment] lesson to review the process.
+
+[complete-assignment]: https://github.com/learn-co-curriculum/phase-0-completing-assignments-codegrade
